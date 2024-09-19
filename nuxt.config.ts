@@ -4,4 +4,11 @@ export default defineNuxtConfig({
   routeRules: {
     "/": { prerender: true },
   },
+  studio: {
+    gitInfo: {
+      name: "content-wind",
+      owner: "horvbalint",
+      url: "https://github.com/horvbalint/content-wind",
+    },
+  },
 });
